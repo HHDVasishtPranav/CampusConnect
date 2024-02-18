@@ -1,7 +1,8 @@
 .message-list-container {
     margin-bottom: 16px;
     flex: 1;
-    overflow: scroll;
+    overflow-y: scroll; /* Vertical scroll */
+    overflow-x: hidden; /* Hide horizontal scroll */
 }
 
 .message-list {
@@ -14,17 +15,20 @@
 .message {
     padding: 8px 16px;
     margin-bottom: 8px;
-    background: var(--color-gray);
+    background: var(--color-blue);
     border-radius: var(--border-radius);
     text-align: left;
 }
 
 .own-message {
-    background: var(--color-blue);
+    background: green;
     align-self: flex-end;
     text-align: right;
+    padding: 8px 16px;
 }
 
-.sender {
-    margin-bottom: 8px;
+.mood {
+    font-size: 12px;
+    color: var(--color-gray);
+    margin-top: 4px;
 }

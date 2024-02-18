@@ -22,9 +22,11 @@ function ChatRoom() {
             <div className="messages-container">
                 <MessageList roomId={room.id} />
                 <MessageInput roomId={room.id} />
+
             </div>
         </>
     );
 }
 
 export { ChatRoom };
+

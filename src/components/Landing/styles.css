@@ -2,14 +2,31 @@
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    padding: 50px;
+}
+
+h2{
+    font-family:'monospace';
+    color:darkorange;
+    font-size: 2.5em;
+    text-align: center;
 }
 
 .chat-room-list li {
-    height: 100px;
-    background: var(--color-gray);
+    height: 120px;
+    background:teal;
     flex: 1 1 calc(50% - 4px);
     border-radius: var(--border-radius);
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.5rem;
+
+}
+.chat-room-list li:hover {
+    background:#f21b3b;
+    color:black;
+    cursor: pointer;
+    font-size:1.7rem;
+    font-weight: bold;
 }

@@ -10,9 +10,11 @@ function Landing() {
                 {chatRooms.map((room) => (
                     <li key={room.id}>
                         <Link to={`/room/${room.id}`}>{room.title}</Link>
+                        
                     </li>
                 ))}
             </ul>
+            <button>hi</button>
         </>
     );
 }

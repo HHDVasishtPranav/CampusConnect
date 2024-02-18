@@ -1,3 +1,25 @@
+#orgmail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em;
+    color:white;
+    /* background-color: rgba(0, 128, 128, 0.5);
+    backdrop-filter: blur(300px);
+    border-radius: 20px;
+    background:linear-gradient(45deg,teal,red,teal); */
+  }
+ 
+#mail
+{
+    font-size: 1.5em;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#mail:hover
+{
+    color:goldenrod;
+}
 .login {
     background: none;
     border: none;
