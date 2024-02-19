@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HHDVasishtPranav/CampusConnect/static/css/main.f0500eff.css",
+    "main.js": "/HHDVasishtPranav/CampusConnect/static/js/main.aaf631bc.js",
+    "index.html": "/HHDVasishtPranav/CampusConnect/index.html",
+    "main.f0500eff.css.map": "/HHDVasishtPranav/CampusConnect/static/css/main.f0500eff.css.map",
+    "main.aaf631bc.js.map": "/HHDVasishtPranav/CampusConnect/static/js/main.aaf631bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0500eff.css",
+    "static/js/main.aaf631bc.js"
+  ]
+}
