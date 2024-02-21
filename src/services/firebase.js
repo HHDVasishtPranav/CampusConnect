@@ -11,13 +11,7 @@ import {
 } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDycvaz3v33mcTP5pDSSe0R5PY5mw4sabE",
-  authDomain: "foi-hackthon.firebaseapp.com",
-  projectId: "foi-hackthon",
-  storageBucket: "foi-hackthon.appspot.com",
-  messagingSenderId: "889666939301",
-  appId: "1:889666939301:web:c618ee8ef6015ee5b6604c",
-  measurementId: "G-JVCT6QX0QL"
+  //
 };
 
 const app = initializeApp(firebaseConfig);
