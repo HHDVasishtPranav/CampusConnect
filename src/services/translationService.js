@@ -2,8 +2,7 @@
 import axios from 'axios';
 
 const translateText = async (text, targetLanguage) => {
-    const apiKey = '8f1301e16ef048a490b24a391b0961d1';
-    const endpoint = 'https://thisisatrialerverfoi.cognitiveservices.azure.com/';
+    //
     
     const url = `${endpoint}/translate?api-version=3.0&to=${targetLanguage}`;
 
