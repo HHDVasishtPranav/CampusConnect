@@ -11,7 +11,13 @@ import {
 } from 'firebase/firestore';
 
 const firebaseConfig = {
-  //
+  apiKey: "AIzaSyBrfcHf-wYvic23_nWhoshTllYhxKo7pRk",
+  authDomain: "campusconnect-4bff7.firebaseapp.com",
+  projectId: "campusconnect-4bff7",
+  storageBucket: "campusconnect-4bff7.appspot.com",
+  messagingSenderId: "423262829689",
+  appId: "1:423262829689:web:31efc0a19cc478f832a8a8",
+  measurementId: "G-LF3Q33HMRF"
 };
 
 const app = initializeApp(firebaseConfig);
